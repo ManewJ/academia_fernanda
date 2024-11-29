@@ -1,3 +1,7 @@
+import enums.FrequenciaSemanal;
+import enums.NivelTreino;
+import enums.Plano;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -94,7 +98,7 @@ public class Main {
         String genero = scanner.nextLine();
         System.out.print("Endereço: ");
         String endereco = scanner.nextLine();
-        System.out.print("Plano (1 - Mensal, 2 - Anual): ");
+        System.out.print("enums.Plano (1 - Mensal, 2 - Anual): ");
         Plano plano = Plano.values()[scanner.nextInt() - 1];
         System.out.println("Escolha o nível de treino (1 - Iniciante, 2 - Intermediário, 3 - Avançado): ");
         NivelTreino nivelTreino = NivelTreino.values()[scanner.nextInt() - 1];

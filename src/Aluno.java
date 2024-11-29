@@ -1,3 +1,7 @@
+import enums.FrequenciaSemanal;
+import enums.NivelTreino;
+import enums.Plano;
+
 public class Aluno extends Pessoa {
     private Plano plano;
     private boolean pagamentoEmDia;
@@ -27,7 +31,7 @@ public class Aluno extends Pessoa {
     @Override
     public String toString() {
         return super.toString() + 
-               ", Plano: " + plano + 
+               ", enums.Plano: " + plano +
                ", Nível: " + nivelTreino + 
                ", Frequência: " + frequencia.getDias() + " dias/semana, " +
                "Pagamento em dia: " + (pagamentoEmDia ? "Sim" : "Não");

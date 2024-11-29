@@ -1,3 +1,5 @@
+package enums;
+
 public enum FrequenciaSemanal {
     TRES_DIAS(3),
     QUATRO_DIAS(4),

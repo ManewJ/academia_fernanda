@@ -1,3 +1,6 @@
+import enums.FrequenciaSemanal;
+import enums.NivelTreino;
+
 import java.util.HashMap;
 
 public class Treino {
